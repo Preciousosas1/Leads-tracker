@@ -43,30 +43,3 @@ deleteBtn.addEventListener("dblclick",function (){
   renderLeads()
 })
 
-
-
-
-function greetUser(greeting){
-  
-}
-
-
-
-
-/// json javascript object notation
-
-//STORAGE PRACTICE
-
-let practice = ["leting go"];
-practice = JSON.stringify(practice); // CONVERT TO STRING
-
-console.log(typeof practice); // TYPEOF TELLS THE BROWSER TO TELL YOU WHAT TYPE OF DATA WAS PARSED
-
-//TRUTHY OR FALSY TRICK CHECK
-
-console.log(Boolean("")); //FALSE
-console.log(Boolean("0")); /// TRUE
-console.log(Boolean(100)); // TRUE
-console.log(Boolean(null)); //FALSE
-console.log(Boolean([0])); //TRUE
-console.log(Boolean(-0)); // FALSE
