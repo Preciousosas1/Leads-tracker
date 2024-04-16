@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chrome{
+    margin: auto 2%;
+    
+}
+
+#input-el{
+    width: 25%;
+    padding: 2%;
+}
+
+#input-btn{
+margin: 1% 0%;
+outline: none;
+border: none;
+background-color: #5f9341;
+color: white;
+font-size: 14px;
+padding: 1%;
+border-radius: 3px;
+}
+ul{
+margin: 15px;
+}
+
+ul li{
+    font-size: 18px;
+    color: #5f9341;
+    font-weight: 400;
+    text-decoration: underline;
+    list-style: none;
+}
+
+#delete-btn{
+    margin: 5px;
+    border: 1px solid #5f9341;
+    background-color:white ;
+    color: #5f9341;
+    font-size: 14px;
+    padding: 1%;
+    border-radius: 3px;
+    }
+
+
